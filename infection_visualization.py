@@ -23,7 +23,7 @@ plt.title('Posterior Probability vs. Prevalence\nfor Various Specificity Levels\
 plt.legend()
 plt.grid(True)
 plt.show()
-
+plt.savefig("docs/ppv_vs_prevalence.png", dpi=300, bbox_inches="tight")
 # Integer-based check for the 5% prevalence, 99.5% specificity example
 N = 10000
 prevalence_demo = 0.05
